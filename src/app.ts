@@ -7,7 +7,7 @@ import notFound from "./Middlewares/notFound";
 const app: Application = express();
 
 const corsOptions = {
-  origin: "https://super-bombolone-1cd8cb.netlify.app",
+  origin: "https://bikemanagement.netlify.app",
   credentials: true,
   optionSuccessStatus: 200,
 };
